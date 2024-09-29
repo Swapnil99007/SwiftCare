@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED59826F2CA9253E00AC9F82 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = ED59826E2CA9253E00AC9F82 /* FirebaseAnalytics */; };
+		ED5982712CA9253E00AC9F82 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = ED5982702CA9253E00AC9F82 /* FirebaseDatabase */; };
+		ED5982732CA9253E00AC9F82 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = ED5982722CA9253E00AC9F82 /* FirebaseFunctions */; };
+		ED5982752CA925A800AC9F82 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = ED5982742CA925A800AC9F82 /* FirebaseMessaging */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED5982512CA901FF00AC9F82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED5982372CA901FD00AC9F82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED59823E2CA901FD00AC9F82;
+			remoteInfo = EyeTrac;
+		};
+		ED59825B2CA901FF00AC9F82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED5982372CA901FD00AC9F82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED59823E2CA901FD00AC9F82;
+			remoteInfo = EyeTrac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED59823F2CA901FD00AC9F82 /* EyeTrac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EyeTrac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5982502CA901FF00AC9F82 /* EyeTracTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EyeTracTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED59825A2CA901FF00AC9F82 /* EyeTracUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EyeTracUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		ED59827A2CA92B9000AC9F82 /* Exceptions for "EyeTrac" folder in "EyeTracTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info.plist",
+			);
+			target = ED59824F2CA901FF00AC9F82 /* EyeTracTests */;
+		};
+		ED59827B2CA92B9000AC9F82 /* Exceptions for "EyeTrac" folder in "EyeTracUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"GoogleService-Info.plist",
+			);
+			target = ED5982592CA901FF00AC9F82 /* EyeTracUITests */;
+		};
+		ED59827D2CA944A500AC9F82 /* Exceptions for "EyeTrac" folder in "EyeTrac" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = ED59823E2CA901FD00AC9F82 /* EyeTrac */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		ED5982412CA901FD00AC9F82 /* EyeTrac */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				ED59827D2CA944A500AC9F82 /* Exceptions for "EyeTrac" folder in "EyeTrac" target */,
+				ED59827A2CA92B9000AC9F82 /* Exceptions for "EyeTrac" folder in "EyeTracTests" target */,
+				ED59827B2CA92B9000AC9F82 /* Exceptions for "EyeTrac" folder in "EyeTracUITests" target */,
+			);
+			path = EyeTrac;
+			sourceTree = "<group>";
+		};
+		ED5982532CA901FF00AC9F82 /* EyeTracTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EyeTracTests;
+			sourceTree = "<group>";
+		};
+		ED59825D2CA901FF00AC9F82 /* EyeTracUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = EyeTracUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED59823C2CA901FD00AC9F82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5982752CA925A800AC9F82 /* FirebaseMessaging in Frameworks */,
+				ED5982732CA9253E00AC9F82 /* FirebaseFunctions in Frameworks */,
+				ED5982712CA9253E00AC9F82 /* FirebaseDatabase in Frameworks */,
+				ED59826F2CA9253E00AC9F82 /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED59824D2CA901FF00AC9F82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5982572CA901FF00AC9F82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED5982362CA901FD00AC9F82 = {
+			isa = PBXGroup;
+			children = (
+				ED5982412CA901FD00AC9F82 /* EyeTrac */,
+				ED5982532CA901FF00AC9F82 /* EyeTracTests */,
+				ED59825D2CA901FF00AC9F82 /* EyeTracUITests */,
+				ED5982402CA901FD00AC9F82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED5982402CA901FD00AC9F82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED59823F2CA901FD00AC9F82 /* EyeTrac.app */,
+				ED5982502CA901FF00AC9F82 /* EyeTracTests.xctest */,
+				ED59825A2CA901FF00AC9F82 /* EyeTracUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED59823E2CA901FD00AC9F82 /* EyeTrac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED5982642CA901FF00AC9F82 /* Build configuration list for PBXNativeTarget "EyeTrac" */;
+			buildPhases = (
+				ED59823B2CA901FD00AC9F82 /* Sources */,
+				ED59823C2CA901FD00AC9F82 /* Frameworks */,
+				ED59823D2CA901FD00AC9F82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				ED5982412CA901FD00AC9F82 /* EyeTrac */,
+			);
+			name = EyeTrac;
+			packageProductDependencies = (
+				ED59826E2CA9253E00AC9F82 /* FirebaseAnalytics */,
+				ED5982702CA9253E00AC9F82 /* FirebaseDatabase */,
+				ED5982722CA9253E00AC9F82 /* FirebaseFunctions */,
+				ED5982742CA925A800AC9F82 /* FirebaseMessaging */,
+			);
+			productName = EyeTrac;
+			productReference = ED59823F2CA901FD00AC9F82 /* EyeTrac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED59824F2CA901FF00AC9F82 /* EyeTracTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED5982672CA901FF00AC9F82 /* Build configuration list for PBXNativeTarget "EyeTracTests" */;
+			buildPhases = (
+				ED59824C2CA901FF00AC9F82 /* Sources */,
+				ED59824D2CA901FF00AC9F82 /* Frameworks */,
+				ED59824E2CA901FF00AC9F82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED5982522CA901FF00AC9F82 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ED5982532CA901FF00AC9F82 /* EyeTracTests */,
+			);
+			name = EyeTracTests;
+			packageProductDependencies = (
+			);
+			productName = EyeTracTests;
+			productReference = ED5982502CA901FF00AC9F82 /* EyeTracTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED5982592CA901FF00AC9F82 /* EyeTracUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED59826A2CA901FF00AC9F82 /* Build configuration list for PBXNativeTarget "EyeTracUITests" */;
+			buildPhases = (
+				ED5982562CA901FF00AC9F82 /* Sources */,
+				ED5982572CA901FF00AC9F82 /* Frameworks */,
+				ED5982582CA901FF00AC9F82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED59825C2CA901FF00AC9F82 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ED59825D2CA901FF00AC9F82 /* EyeTracUITests */,
+			);
+			name = EyeTracUITests;
+			packageProductDependencies = (
+			);
+			productName = EyeTracUITests;
+			productReference = ED59825A2CA901FF00AC9F82 /* EyeTracUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED5982372CA901FD00AC9F82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					ED59823E2CA901FD00AC9F82 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					ED59824F2CA901FF00AC9F82 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = ED59823E2CA901FD00AC9F82;
+					};
+					ED5982592CA901FF00AC9F82 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = ED59823E2CA901FD00AC9F82;
+					};
+				};
+			};
+			buildConfigurationList = ED59823A2CA901FD00AC9F82 /* Build configuration list for PBXProject "EyeTrac" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED5982362CA901FD00AC9F82;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				ED59826D2CA9253E00AC9F82 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ED5982402CA901FD00AC9F82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED59823E2CA901FD00AC9F82 /* EyeTrac */,
+				ED59824F2CA901FF00AC9F82 /* EyeTracTests */,
+				ED5982592CA901FF00AC9F82 /* EyeTracUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED59823D2CA901FD00AC9F82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED59824E2CA901FF00AC9F82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5982582CA901FF00AC9F82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED59823B2CA901FD00AC9F82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED59824C2CA901FF00AC9F82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5982562CA901FF00AC9F82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED5982522CA901FF00AC9F82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED59823E2CA901FD00AC9F82 /* EyeTrac */;
+			targetProxy = ED5982512CA901FF00AC9F82 /* PBXContainerItemProxy */;
+		};
+		ED59825C2CA901FF00AC9F82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED59823E2CA901FD00AC9F82 /* EyeTrac */;
+			targetProxy = ED59825B2CA901FF00AC9F82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ED5982622CA901FF00AC9F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED5982632CA901FF00AC9F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		ED5982652CA901FF00AC9F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EyeTrac/EyeTrac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EyeTrac/Preview Content\"";
+				DEVELOPMENT_TEAM = 3ZWB6Y42GU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EyeTrac/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CaffeineCompilers.EyeTrac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		ED5982662CA901FF00AC9F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = EyeTrac/EyeTrac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EyeTrac/Preview Content\"";
+				DEVELOPMENT_TEAM = 3ZWB6Y42GU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EyeTrac/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CaffeineCompilers.EyeTrac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		ED5982682CA901FF00AC9F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZWB6Y42GU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CaffeineCompilers.EyeTracTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EyeTrac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EyeTrac";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		ED5982692CA901FF00AC9F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZWB6Y42GU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CaffeineCompilers.EyeTracTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EyeTrac.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EyeTrac";
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		ED59826B2CA901FF00AC9F82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZWB6Y42GU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CaffeineCompilers.EyeTracUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = EyeTrac;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		ED59826C2CA901FF00AC9F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3ZWB6Y42GU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CaffeineCompilers.EyeTracUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = EyeTrac;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED59823A2CA901FD00AC9F82 /* Build configuration list for PBXProject "EyeTrac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5982622CA901FF00AC9F82 /* Debug */,
+				ED5982632CA901FF00AC9F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED5982642CA901FF00AC9F82 /* Build configuration list for PBXNativeTarget "EyeTrac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5982652CA901FF00AC9F82 /* Debug */,
+				ED5982662CA901FF00AC9F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED5982672CA901FF00AC9F82 /* Build configuration list for PBXNativeTarget "EyeTracTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5982682CA901FF00AC9F82 /* Debug */,
+				ED5982692CA901FF00AC9F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED59826A2CA901FF00AC9F82 /* Build configuration list for PBXNativeTarget "EyeTracUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED59826B2CA901FF00AC9F82 /* Debug */,
+				ED59826C2CA901FF00AC9F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ED59826D2CA9253E00AC9F82 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ED59826E2CA9253E00AC9F82 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED59826D2CA9253E00AC9F82 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		ED5982702CA9253E00AC9F82 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED59826D2CA9253E00AC9F82 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		ED5982722CA9253E00AC9F82 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED59826D2CA9253E00AC9F82 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		ED5982742CA925A800AC9F82 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED59826D2CA9253E00AC9F82 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = ED5982372CA901FD00AC9F82 /* Project object */;
+}

@@ -67,4 +67,4 @@ node_modules/
 
 .DS_Store
 .firebaserc
-
+./EyeTrac/EyeTrac/GoogleService-Info.plist

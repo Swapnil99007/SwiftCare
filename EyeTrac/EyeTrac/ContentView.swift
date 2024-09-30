@@ -12,7 +12,7 @@ struct ContentView: View {
     @State private var roomNumber = "301" // Example room number
     
     @State private var showingAdminPopup = false
-    @State private var nurseContact = "6232809220" // Example nurse contact
+    @State private var nurseContact = "" // Example nurse contact
     @State private var tempPatientID = ""
     @State private var tempRoomNumber = ""
     @State private var tempNurseContact = ""
